@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600&family=Herr+Von+Muellerhoff&family=Hind+Siliguri:wght@600&family=Indie+Flower&family=Jost:wght@300;500;700&family=Kaushan+Script&family=Koulen&family=Leckerli+One&family=Montaga&family=Niconne&family=Open+Sans:wght@600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,500&family=Red+Hat+Display:ital@1&family=Roboto+Slab&family=Roboto:ital,wght@0,100;0,900;1,100;1,900&family=Satisfy&family=Sirin+Stencil&display=swap" rel="stylesheet">
+    <title>Dr. M. N. Ansari</title>
+</head>
+<body>
+   <div class="container">
+    <div class="logo">
+        <img src="logo1.png" alt="Clinic Logo">
+        <img src="homeopathylogo.png" alt="">
+    </div>
+    <h1 id="doc">Dr. M.N. Ansari</h1>
+    <h1 id="degree1">B H M S (B.U.)</h1>
+    <h1 id="degree2">Homeopathy Physician</h1>
+    <div class="form-box">
+        <div class="form-container">
+            <form>
+                <div class="input-row">
+                    <div class="input-group">
+                        <label>Date:</label>
+                        <input required type="date" id="date">
+                    </div>
+                    <div class="input-group">
+                        <label>File No:</label>
+                        <input type="text" id="file">
+                    </div>
+                </div>
+                <div class="input-row">
+                    <div class="input-group">
+                        <label>Name:</label>
+                        <input  type="text" id="name">
+                    </div>
+                    <div class="input-group">
+                        <label>Adress:</label>
+                        <input  type="text" id="address">
+                    </div>
+                </div>
+                <a href="#" id="download-btn" >Generate</a>
+            </form>
+            <canvas id="canvas" height="500px" width="1000px" style="display:none;"></canvas>
+
+        </div>
+    </div>
+   </div>
+   
+
+   <script src="script.js"></script>
+</body>
+</html>

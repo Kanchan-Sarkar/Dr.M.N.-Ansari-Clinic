@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400;500&family=Montserrat:wght@300;400;500;700;800&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;1,300&family=Poppins:ital,wght@0,100;0,300;1,100;1,600;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+    font-family:'Montserrat', sans-serif;
+}
+body{
+    background-image: linear-gradient(45deg, #6ff99f, #76dee9);
+    min-height: 100vh;
+    overflow-y: hidden;
+}
+.container{
+    width: 60%;
+    margin: 5px auto;
+}
+.form-box{
+    background: #fff;
+    border-radius: 8px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+}
+.form-container{
+    flex-basis: 84%;
+    padding: 65px 70px;
+    
+}
+.container h1{
+    text-align: center;
+}
+#doc{
+    font-size: 60px;
+}
+#degree1{
+    font-size: 30px;
+    font-weight: 500;    
+}
+#degree2{
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #939393;
+    outline: none;
+    padding-bottom: 5px;
+}
+a{
+    background-image: linear-gradient(45deg, #ff56b6, #635bff);
+    width: 150px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    height: 40px;
+    margin-top: 15px;
+    border-radius: 6px;
+    transition: 0.5s all;
+    
+}
+a:hover{
+    background: #f08cc5;
+    cursor: pointer;
+}
+.container .logo img{
+    width: 130px;
+}
+.container .logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
