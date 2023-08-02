@@ -22,7 +22,7 @@ function drawImage() {
 	// ctx.clearRect(0, 0, canvas.width, canvas.height)
 	ctx.drawImage(image, 0, 0, canvas.width, canvas.height)
 	ctx.font = '25px monotype '
-	ctx.fillStyle = '#29e'
+	ctx.fillStyle = '#0032fa'
 	ctx.fillText(nameInput.value,160, 117)
     ctx.fillText(date.value, 170, 50)
 	ctx.fillText(fileno.value, 520, 50)
@@ -34,7 +34,7 @@ function drawImage() {
 function drawImage1(){
     ctx.drawImage(image, 0, 0, canvas.width, canvas.height)
 	ctx.font = '25px monotype '
-	ctx.fillStyle = '#29e'
+	ctx.fillStyle = '#0032fa'
 	ctx.fillText(nameInput.value, 160, 117)
     ctx.fillText(date.value, 170, 50)
 	ctx.fillText(fileno.value, 520, 50)
@@ -43,7 +43,7 @@ function drawImage1(){
 function drawImage2(){
     ctx.drawImage(image, 0, 0, canvas.width, canvas.height)
 	ctx.font = '25px monotype '
-	ctx.fillStyle = '#29e'
+	ctx.fillStyle = '#0032fa'
     ctx.fillText(nameInput.value, 160, 117)
     ctx.fillText(date.value, 170, 50)
 	ctx.fillText(fileno.value, 520, 50)
@@ -51,7 +51,7 @@ function drawImage2(){
 function drawImage3(){
     ctx.drawImage(image, 0, 0, canvas.width, canvas.height)
 	ctx.font = '25px monotype '
-	ctx.fillStyle = '#29e'
+	ctx.fillStyle = '#0032fa'
     ctx.fillText(nameInput.value, 160, 117)
     ctx.fillText(date.value, 170, 50)
 	ctx.fillText(fileno.value, 520, 50)
