@@ -21,41 +21,41 @@ image.onload = function () {
 function drawImage() {
 	// ctx.clearRect(0, 0, canvas.width, canvas.height)
 	ctx.drawImage(image, 0, 0, canvas.width, canvas.height)
-	ctx.font = '40px monotype '
+	ctx.font = '25px monotype '
 	ctx.fillStyle = '#29e'
-	ctx.fillText(nameInput.value, 240, 230)
-    ctx.fillText(date.value, 200, 100)
-	ctx.fillText(fileno.value, 700, 100)
-    ctx.fillText(address.value, 220, 363)
+	ctx.fillText(nameInput.value,160, 117)
+    ctx.fillText(date.value, 170, 50)
+	ctx.fillText(fileno.value, 520, 50)
+    ctx.fillText(address.value, 178, 185)
 
 
 
 }
 function drawImage1(){
     ctx.drawImage(image, 0, 0, canvas.width, canvas.height)
-	ctx.font = '40px monotype '
+	ctx.font = '25px monotype '
 	ctx.fillStyle = '#29e'
-	ctx.fillText(nameInput.value, 240, 230)
-    ctx.fillText(date.value, 200, 100)
-	ctx.fillText(fileno.value, 700, 100)
-    ctx.fillText(address.value, 220, 363)
+	ctx.fillText(nameInput.value, 160, 117)
+    ctx.fillText(date.value, 170, 50)
+	ctx.fillText(fileno.value, 520, 50)
+    ctx.fillText(address.value, 178, 185)
 }
 function drawImage2(){
     ctx.drawImage(image, 0, 0, canvas.width, canvas.height)
-	ctx.font = '40px monotype '
+	ctx.font = '25px monotype '
 	ctx.fillStyle = '#29e'
-    ctx.fillText(nameInput.value, 240, 230)
-    ctx.fillText(date.value, 200, 100)
-	ctx.fillText(fileno.value, 700, 100)
-    ctx.fillText(address.value, 220, 363)}
+    ctx.fillText(nameInput.value, 160, 117)
+    ctx.fillText(date.value, 170, 50)
+	ctx.fillText(fileno.value, 520, 50)
+    ctx.fillText(address.value, 178, 185)}
 function drawImage3(){
     ctx.drawImage(image, 0, 0, canvas.width, canvas.height)
-	ctx.font = '40px monotype '
+	ctx.font = '25px monotype '
 	ctx.fillStyle = '#29e'
-    ctx.fillText(nameInput.value, 240, 230)
-    ctx.fillText(date.value, 200, 100)
-	ctx.fillText(fileno.value, 700, 100)
-    ctx.fillText(address.value, 220, 363)}
+    ctx.fillText(nameInput.value, 160, 117)
+    ctx.fillText(date.value, 170, 50)
+	ctx.fillText(fileno.value, 520, 50)
+    ctx.fillText(address.value, 178, 185)}
 
 nameInput.addEventListener('input', function () {
 	drawImage()
@@ -74,3 +74,4 @@ downloadBtn.addEventListener('click', function () {
 	downloadBtn.href = canvas.toDataURL('image/jpg')
 	downloadBtn.download = 'nameplate - ' + nameInput.value
 })
+
